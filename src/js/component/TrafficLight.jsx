@@ -34,7 +34,7 @@ const TrafficLight  = () => {
           className={`luz bg-info rounded-circle border border-dark ${
             luz === "blue" ? "selected" : ""
           }`}
-          onClick={() => setLuz("blue")}
+          onClick={() => setluz("blue")}
         ></div>
       )
     );
