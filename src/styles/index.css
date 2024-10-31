@@ -10,3 +10,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+
+.container {
+    height: 300px;
+    
+}
+  
+.semaforo {
+  width: 80px;
+}
+  
+
+.luz {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.selected {
+  box-shadow: 0px 0px 30px rgb(255, 251, 0);
+}
+
+
